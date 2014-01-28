@@ -1,0 +1,310 @@
+This file is necessary to map each student to their corresponding TA. The TA's name is delimited with the "-" character.
+
+===========
+CS-1332 A1
+===========
+Amiri, Addison -David
+Aphivantrakul, Porntawee -David
+Bailey, Evan -David
+Berry, John -David
+Briceno, Guillermo -David
+Buchanan, Justin -David
+Carnauba, Daniel -David
+Chen, Jesse -David
+Craig, Kenneth -David
+Damyan, Peter -David
+Do, Sado -David
+Dorne, Jeremy -David
+Elliott, Jonathan -David
+Evanish, Casey -David
+Fallon, Kevin -David
+Freeman, Alexander -David
+Garg, Naman -David
+Goh, Edwin -David
+Hendricks, Darren -David
+Kim, Max -David
+Kong, Jee -David
+Leroux, Jordan -David
+Luby, Kenisha -David
+Maffett, Fletcher -David
+Mark, Thomas -David
+Neenan, Evan -Steven
+O'Donnell, John -Steven
+Offsey, Shir -Steven
+Park, Bum-Jun -Steven
+Rich, Samantha -Steven
+Roberts, Jack -Steven
+Roy, Robert -Steven
+Sanli, Deniz -Steven
+Sehgal, Parth -Steven
+Sharma, Anish -Steven
+Shum, Monica -Steven
+Siu, Alexa -Steven
+Smith, Carter -Steven
+Strouss, Sara -Steven
+Surapaneni, Sai -Steven
+Tran, Son -Steven
+Tsou, Anthony -Steven
+Wang, Cindy -Steven
+Warrayat, Sammy -Steven
+Washington, Clarence -Steven
+Weeks, Nancy -Steven
+Wen, Yue -Steven
+Wong, Ivan -Steven
+Wu, Chia-Chun -Steven
+Wu, Kenny -Steven
+Zachary, Christina -Steven
+
+===========
+CS-1332 A2
+===========
+Arthur, John -Naomi
+Bjelcevic, Stefan -Naomi
+Blackstone, Christopher -Naomi
+Blanton, Jarrod -Naomi
+Borowicz, Robert -Naomi
+Cann, Brian -Naomi
+Chang, Moon -Naomi
+Choate, James -Naomi
+Collins, Chad -Naomi
+Cooke, Adam -Naomi
+Coulter, Alexis -Naomi
+Degregorio, Anthony -Naomi
+Dent, Peyton -Naomi
+Deo, Abhishek -Naomi
+deuskar, jay -Naomi
+Finnegan, Jacob -Naomi
+Gonzalez, Daniel -Naomi
+Hensey, Robert -Naomi
+Hsu, Jeffrey -Naomi
+Im, Kyuri -Naomi
+Jain, Pratik -Naomi
+Jiang, Zixin -Jonathan
+Kelly-Bazan, Stephen -Jonathan
+Kim, Benjamin -Jonathan
+Lane, Michael -Jonathan
+Lee, Hyun Jong -Jonathan
+Lin, Sen -Jonathan
+Littig, Andres -Jonathan
+Liu, Yaxiong -Jonathan
+Louis, Hans -Jonathan
+Nickerson, Vaughan -Jonathan
+Overcash, William -Jonathan
+Peterson, Sydni -Jonathan
+Plummer, Zachary -Jonathan
+Shaw, Albert -Jonathan
+Shim, Wongoo -Jonathan
+Stott, Michael -Jonathan
+Vermeyen, Scott -Jonathan
+Wolfe, John-Colby -Jonathan
+Woo, Titus -Jonathan
+Zajac, Christian -Jonathan
+Zhu, Yuan -Jonathan
+
+===========
+CS-1332 A3
+===========
+Altonji, Christopher -Jack
+Ansher, Daniel -Jack
+Arcot, Saikrishna -Jack
+Bach, Renee -Jack
+Bang, Kevin -Jack
+Barnette, Casey -Jack
+Bishop, Robert -Jack
+Blumenthal, Samuel -Jack
+Bolton, William -Jack
+Brzycki, Cory -Jack
+Bunch, Creston -Jack
+Chen, Sicong -Jack
+Coe, Thomas -Jack
+Collins, Sean -Jack
+Cooper, Devon -Jack
+Deese, Christopher -Jack
+DeLeon, Nicolas -Jack
+Donn, Ian -Jack
+Dupuy, Branson -Jack
+Filardo, Dylan -Jack
+Fletcher, Andrea -Jack
+Khorana, Tejas -Jack
+Kini, Kartikay -Jack
+Kucera, Clayton -Jack
+Lill, Joshua - Brett
+Lombardo, Alec -Brett
+Narayan, Arvind -Brett
+Negi, Shivani -Brett
+Nguyen, Lien -Brett
+Perez, Alexander -Brett
+Peteet, Henry -Brett
+Poole, Alexander -Brett
+Purcell, David -Brett
+Rego, Raoul -Brett
+Rigole, Emily -Brett
+Rosenblume, Hunter -Brett
+Ryan, Nicholas -Brett
+Shi, Jian -Brett
+Song, Joshua -Brett
+Thomas, Steven -Brett
+Venkatramanan, Goutam -Brett
+Wilkinson, Connor -Brett
+Williams, Louis -Brett
+Wilson, Jayne -Brett
+wright, graham -Brett
+Yaniger, Dean -Brett
+Zhang, Jialiang -Brett
+Zhang, Ting -Brett
+
+===========
+CS-1332 A4
+===========
+Berman, Matthew -Joonho
+Byrd, Ethan -Joonho
+Cha, Seung Wouk -Joonho
+Chan, Jackson -Joonho
+Chea, Vince -Joonho
+Chen, Wengling -Joonho
+Cheung, Ambrose -Joonho
+Cochran, Eric -Joonho
+Cohen, Daniel -Joonho
+Dai, Sean -Joonho
+Delisle, Katherine -Joonho
+Diao, Enmao -Joonho
+Dotson, Joshua -Joonho
+Du, Haoli -Joonho
+Dykes, Stephanie -Joonho
+Edenfield, Patrick -Joonho
+Farrow, Johnny -Joonho
+Gupta, Rohan -Joonho
+Han, Kevin -Joonho
+Hariani, Akshay -Joonho
+Hartman, Taylor -Joonho
+Hassanein, Youssif -Joonho
+Horgen, Douglas -Joonho
+Hosford, Kyle -Dhruv
+Hynson, Gene -Dhruv
+Jones, Stacey -Dhruv
+Kim, Taekyu -Dhruv
+Lago, Gabriela -Dhruv
+Langford, Alexander -Dhruv
+Lee, Myron -Dhruv
+MacDonald, Carey -Dhruv
+Mccall, Melanie -Dhruv
+Newcomer, Benjamin -Dhruv
+Park, Jong -Dhruv
+Rabinowitz, Eric -Dhruv
+Rossi, Joseph -Dhruv
+Shenoy, Pranav -Dhruv
+Somavarapu, Nathan -Dhruv
+Surber, Brian -Dhruv
+Thomas, Tre'saun -Dhruv
+Varela, John -Dhruv
+Vazquez, Ryan -Dhruv
+Vinson, John -Dhruv
+Vondrak, Daniel -Dhruv
+Yu, Sum Lok -Dhruv
+Zhelyazkov, Kristian -Dhruv
+
+===========
+CS-1332 A5
+===========
+Avila, Jonathan -Albert
+Bhamidipati, Surya -Albert
+Bhatia, Surya -Albert
+Bhooshan, Suvrat -Albert
+Bires, Jason -Albert
+Cipolla, Kevin -Albert
+Croft, John -Albert
+Davis, Seth -Albert
+Dutta, Manav -Albert
+Erabelli, Vishal -Albert
+Ford, Christopher -Albert
+Gao, Wilson -Albert
+Gonzalez, Eugene -Albert
+Gopal, Trisha -Albert
+Heavern, David -Albert
+Hirsch, Benjamin -Albert
+Jain, Anirudh -Albert
+Johnston, Matthew -Albert
+Kassem, Samantha -Albert
+Li, Albert -Albert
+Li, Melissa -Albert
+Mannan, Mashal -Albert
+McCarty, Rose -Albert
+Mirate, Milo -Albert
+Mohammed, Shafiq -Albert
+Morgan, Jackson -Albert
+Naidu, Saiprasad -Julia
+Newman, Lucas -Julia
+Nguyen, Shannon -Julia
+Palmore, Lauren -Julia
+Rago, Gregory -Julia
+Reed, Chad -Julia
+Reeder, Connor -Julia
+Sahu, Aawantika -Julia
+Scott, Owen -Julia
+Smith, Andrew -Julia
+Smith, Ruby -Julia
+Solanki, Tanmay -Julia
+Song, Stephen -Julia
+Stokols, Caleb -Julia
+Tadikonda, Pravallika -Julia
+Tadros, Toma -Julia
+Townsend, Matthew -Julia
+Tsao, Yen-Hsiang -Julia
+Tsvetkov, Kamen -Julia
+Van Nimwegen, Travis -Julia
+Vologzhanina, Inna -Julia
+Walker, Bryson -Julia
+Wu, Jesse -Julia
+Xu, Vania -Julia
+Zhang, Tiffany -Julia
+
+===========
+CS-1332 A6
+===========
+Baek, Jae Min -Hannah
+Beveridge, Connor -Hannah
+Chen, Jian -Hannah
+Dao, Thong -Hannah
+Dhillon, Sidak -Hannah
+Duan, Richard -Hannah
+Fulwiler, Guy -Hannah
+Girmay, David -Hannah
+Graves, Daniel -Hannah
+Gu, William -Hannah
+Harris, Thomas -Hannah
+Hernandez Anton, Jose Manuel -Hannah
+Hu, Wenqi -Hannah
+Johnson, Derrick -Hannah
+Kang, Hyolim -Hannah
+Kim, Seung Yeon -Hannah
+Koh, Taeho -Hannah
+Li, George -Hannah
+Li, Zhuoming -Hannah
+Lopez, Julio -Hannah
+McAnally, Aaron - Kevin
+McCauley, Kevin -Kevin
+Moak, James -Kevin
+Nathan, Chris -Kevin
+Nguyen, Trung -Kevin
+O'Shaughnessy, Matthew -Kevin
+Pahawa, Karan -Kevin
+Peng, Yuqing -Kevin
+Pennington, Alex -Kevin
+Remy, Stephanie -Kevin
+Shankar, Anjali -Kevin
+Shen, Fu -Kevin
+Vora, Pranil -Kevin
+Wang, Qisi -Kevin
+Wetherford, Jeremy -Kevin
+Whigham, Jared -Kevin
+Wijayarathne, Lasitha -Kevin
+Xin, Wen -Kevin
+Yoon, Hee Young -Kevin
+
+===========
+CS-1332 GR
+===========
+Patel, Kunal -Joonho
+Sun, Dan -Joonho
+Wu, Chao -Dhruv
+Yeh, Peihsun -Dhruv

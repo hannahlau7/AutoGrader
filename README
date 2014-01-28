@@ -1,0 +1,43 @@
+Instructions:
+	Place JUnit inside JUnit folder. Make sure the name of the JUnit
+	matches what is inside AutoGrader.java.
+
+	Place resources such as interfaces or other java files inside the
+	Resource folder.
+
+	Place all student folders (unzipped) into the Student folder.
+
+	To run the AutoGrader, just type ./Run in terminal. 
+
+
+The following items are hardcoded in AutoGrader.java:
+	Name of the JUnit file.
+	
+	Cutoff score for a good grade. (Should usually be around 75 to 80).
+
+
+The following items may be changed as necessary:
+	Comments generated in AutoGrader.java. 
+	
+	checkstyle.xml that mandates what is to be flagged as an style error. 
+
+
+Notes:
+	2>&- 1>&- suppresses outputs while running the bash script. Comment 
+	these out to debug. 
+
+	Using import org.junit.*; and the @Test annotation will cause problems
+	when compiling the JUnit from command line. Manually import each class
+	instead.
+
+
+Issues:
+	The System.exit(0) in AutoGrader.java may cause problems if there 
+	are tests that take too long to run. See to this in the future.
+
+	Since JUnit tests are run with JUnitCore's run(), @Test (timeout=#) 
+	does not work.
+
+	Sometimes the autograder gives students 0's for no good reason. :(
+
+	Feedback is very uniform and appears to be auto-generated.

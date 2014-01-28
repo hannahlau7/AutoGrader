@@ -1,0 +1,80 @@
+#!/bin/bash
+
+# Export junit package to classpath so autograder compiles
+export CLASSPATH=$CLASSPATH:AutoGrader/junit-4.10.jar 
+
+# Remove any leftover files from last run
+rm *.csv *.txt 2>&- 1>&-
+
+# Iterate through each student folder
+for dir in Student/*/; do
+
+	# Double check to make sure "dir" is a directory
+	if [ -d "$dir" ]; then
+
+		# Parse for student's name, corresponding TA, and student's submission directory
+		student=$(echo "$dir" | sed s/Student\\/// | sed s/\(.*//)
+		ta=$(grep "$student" AutoGrader/TAs.txt | sed s/.*-//)		
+		sub_dir="${dir}Submission attachment(s)/"
+
+		touch comments.txt
+
+		# Check if submission is zipped and check if zip contains a folder
+		if [ -e "$sub_dir"*.zip ]; then
+			unzip -u "$sub_dir"*.zip -d "$sub_dir" 2>&- 1>&-
+			cp "$sub_dir"*/*.java "$sub_dir" 2>&- 1>&-
+
+		# Check if submission is tarred and check if tar contains a folder
+		elif [ -e "$sub_dir"*.tar* ]; then
+			tar -xf "$sub_dir"*.tar* -C "$sub_dir" 2>&- 1>&-
+			cp "$sub_dir"*/*.java "$sub_dir" 2>&- 1>&-
+		fi 
+
+		# Check that student submitted any files
+		if [ "$(ls -A "$sub_dir")" ]; then 
+			# Override resources in student's folder 
+			cp Resources/*.java "$sub_dir"
+
+			# Recompile all code in case object constructors are written differently, causing <init> errors
+			javac AutoGrader/*.java JUnit/*.java "$sub_dir"*.java 2> /dev/null 
+
+			# Check if code compiles
+			if [ $? -eq 0 ]; then 
+				cp "$sub_dir"*.class .
+				cp AutoGrader/*.class .
+				cp JUnit/*.class .
+
+				touch grade.txt
+
+				# Run CheckStyle
+				java -jar AutoGrader/checkstyle.jar -c AutoGrader/checkstyle.xml "$sub_dir"*.java >> checkstyle.txt
+
+				# Suppressed to block print statements, pass TA's name into args parameter
+				java AutoGrader "$ta" $2>&- 1>&-
+		
+				# Append student's grade to grades.csv file
+				grade=$(cat grade.txt)
+
+			# Record a grade of 0 for non-compiling homework
+			else
+				grade=0
+				echo "Code did not compile. -$ta" >> comments.txt
+			fi
+
+		# Otherwise report that no files were submitted.
+		else			
+			echo "No files submitted. If you believe this is an error, contact me. -$ta" >> comments.txt
+		fi
+
+		# Debugging
+		echo "$grade $student"
+		
+		# Append student's grade to grades.csv
+		sed -r -i "s/$student,.*/$student,$grade/g" Student/grades.csv
+
+		mv comments.txt "$dir"
+
+		# Clean up remaining files
+		rm *.class *.txt 2>&- 1>&-
+	fi
+done
